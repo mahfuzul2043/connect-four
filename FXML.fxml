@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="438.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="connectfour.FXMLController">
+   <children>
+      <Pane fx:id="pane1" onMouseClicked="#paneClicked" onMouseEntered="#hoverInPane" onMouseExited="#hoverOutPane" prefHeight="438.0" prefWidth="74.0" style="-fx-background-color: grey;" AnchorPane.topAnchor="0.0">
+         <children>
+            <Circle fill="WHITE" layoutX="37.0" layoutY="399.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="329.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="259.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="189.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="119.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="49.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </Pane>
+      <Pane fx:id="pane2" layoutX="74.0" onMouseClicked="#paneClicked" onMouseEntered="#hoverInPane" onMouseExited="#hoverOutPane" prefHeight="438.0" prefWidth="74.0" style="-fx-background-color: grey;">
+         <children>
+            <Circle fill="WHITE" layoutX="37.0" layoutY="399.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="329.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="259.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="189.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="119.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="49.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </Pane>
+      <Pane fx:id="pane3" layoutX="148.0" onMouseClicked="#paneClicked" onMouseEntered="#hoverInPane" onMouseExited="#hoverOutPane" prefHeight="438.0" prefWidth="74.0" style="-fx-background-color: grey;">
+         <children>
+            <Circle fill="WHITE" layoutX="37.0" layoutY="399.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="329.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="259.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="189.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="119.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="49.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </Pane>
+      <Pane fx:id="pane4" layoutX="222.0" onMouseClicked="#paneClicked" onMouseEntered="#hoverInPane" onMouseExited="#hoverOutPane" prefHeight="438.0" prefWidth="74.0" style="-fx-background-color: grey;">
+         <children>
+            <Circle fill="WHITE" layoutX="37.0" layoutY="399.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="329.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="259.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="189.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="119.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="49.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </Pane>
+      <Pane fx:id="pane5" layoutX="296.0" onMouseClicked="#paneClicked" onMouseEntered="#hoverInPane" onMouseExited="#hoverOutPane" prefHeight="438.0" prefWidth="74.0" style="-fx-background-color: grey;">
+         <children>
+            <Circle fill="WHITE" layoutX="37.0" layoutY="399.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="329.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="259.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="189.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="119.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="49.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </Pane>
+      <Pane fx:id="pane6" layoutX="370.0" onMouseClicked="#paneClicked" onMouseEntered="#hoverInPane" onMouseExited="#hoverOutPane" prefHeight="438.0" prefWidth="74.0" style="-fx-background-color: grey;">
+         <children>
+            <Circle fill="WHITE" layoutX="37.0" layoutY="399.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="329.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="259.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="189.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="119.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="49.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </Pane>
+      <Pane fx:id="pane7" layoutX="444.0" onMouseClicked="#paneClicked" onMouseEntered="#hoverInPane" onMouseExited="#hoverOutPane" prefHeight="438.0" prefWidth="74.0" style="-fx-background-color: grey;">
+         <children>
+            <Circle fill="WHITE" layoutX="37.0" layoutY="399.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="329.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="259.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="189.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="119.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="WHITE" layoutX="37.0" layoutY="49.0" radius="25.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </Pane>
+      <Pane layoutX="518.0" prefHeight="438.0" prefWidth="152.0">
+         <children>
+            <Label layoutX="13.0" layoutY="14.0" text="Connect Four">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="turnLabel" layoutX="37.0" layoutY="81.0" text="Player1's Turn!" />
+            <Pane layoutX="29.0" layoutY="308.0" prefHeight="30.0" prefWidth="94.0">
+               <children>
+                  <Circle fill="RED" layoutX="14.0" layoutY="16.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Label layoutX="35.0" layoutY="8.0" text="= Player1" />
+               </children>
+            </Pane>
+            <Pane layoutX="29.0" layoutY="343.0" prefHeight="30.0" prefWidth="94.0">
+               <children>
+                  <Circle layoutX="14.0" layoutY="16.0" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Label layoutX="35.0" layoutY="8.0" text="= Player2" />
+               </children>
+            </Pane>
+            <Button layoutX="38.0" layoutY="392.0" mnemonicParsing="false" onAction="#newGame" text="New Game" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
